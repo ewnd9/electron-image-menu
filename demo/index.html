@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>demo</title>
+
+  <script>
+  const context = require('electron-contextmenu-middleware');
+  context.use(require('../')); // replace with 'electron-image-menu'
+  context.activate();
+  </script>
+</head>
+
+<body>
+  <h1>Remote Cat</h1>
+  <img src="https://raw.githubusercontent.com/maxogden/elementary-electron/bf31070c6506ea1022801dcff7c68d817933633b/cool-app.png" height="100">
+  <h1>Local Cat</h1>
+  <img src="./cat.png" height="100">
+</body>
+</html>
