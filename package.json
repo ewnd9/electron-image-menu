@@ -1,7 +1,7 @@
 {
   "name": "electron-image-menu",
   "description": "Context menu for img tags with the \"Save image as\" function in electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "electron-save-file": "^1.0.1"
