@@ -9,9 +9,14 @@ Context menu for `img` tags with the "Save image as" function in [`electron`](ht
 ## Install
 
 ```
-$ npm install electron-save-file --save
 $ npm install electron-contextmenu-middleware --save
 $ npm install electron-image-menu --save
+```
+
+:warning: If you bundle your frontend dependencies, you should also install `electron-file-save` as a dependency. It is used with electron [remote](https://github.com/electron/electron/blob/577480421d51d67149158732119f136f30d25522/docs/api/remote.md) module.
+
+```
+$ npm install electron-save-file --save
 ```
 
 ## Usage
